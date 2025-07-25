@@ -139,12 +139,13 @@ color: rgb(0, 0, 0);
 
 .background{
     background-image: url(../assets/news-letter-bg.png);
-    height: 350px;
+    height: 400px;
     width: 100%;
     text-align: center;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 .background,button{
@@ -168,6 +169,10 @@ color: rgb(0, 0, 0);
 }
 #bunch{
     color: white;
+}
+
+.footer{
+    padding: 40px;
 }
 
 /* Media query */

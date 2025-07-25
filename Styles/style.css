@@ -12,7 +12,8 @@
 }
 
 .main{
-    padding: 10px 40px;
+   margin-left: 40px;
+   margin-right: 40px;
 }
 
 /* shared styles */
@@ -66,7 +67,9 @@ color: rgb(0, 0, 0);
 }
 .plants{
     text-align: center;
-    padding-top: 70px;
+padding: 40px;
+
+
   
   
 }
@@ -77,29 +80,37 @@ color: rgb(0, 0, 0);
     height: 30px;
     width: 270px;
     
+    margin-bottom: 5px;
+    
+    
+}
+.pos-cen{
+    text-align: center;
 }
 
 .flower-cart{
-    text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
-    padding: 20px 40px;
+    
+   
 
 }
 
 .flower-cart, p{
     font-weight: bold;
     margin-top: 0%;
+   
+    
  
 }
 .flower-cart, h4{
    font-size: medium;
-   margin-bottom: 3px;
-  
- 
+   margin-bottom: 5px;
 
+  
 }
+
+
 .flower-plants-lover,.store{
     width: 100%;
     padding: 30px 20px;
@@ -148,11 +159,7 @@ color: rgb(0, 0, 0);
     margin-bottom: 50px;
 
 }
-.background,button{
-    gap: none;
 
-    
-}
 .background-style{
     margin-top: 50px;
     align-items: center;
@@ -173,13 +180,27 @@ color: rgb(0, 0, 0);
 
 .footer{
     padding: 40px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.design-footer{
+
+    list-style: none;
+    padding-left: 30px;
+
+}
+.design-footer, li{
+    margin-bottom: 30px;
+}
+.footer-image-style,img{
+    padding-right: 20px;
 }
 
 /* Media query */
 
 @media screen and (max-width: 576px) {
 
-    .navbar, .nav-links, .header, .flower-cart, .flower-plants-lover,.latest-deal, .latest-img, .background{
+    .navbar, .nav-links, .header, .flower-cart, .flower-plants-lover,.latest-deal, .latest-img, .background,.footer{
         flex-direction: column;
     }
 
